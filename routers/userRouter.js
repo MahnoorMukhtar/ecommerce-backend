@@ -20,6 +20,4 @@ router.patch('/updateUser', protect, updateUser)
 router.patch('/updateUserPhoto', protect, updateUserPhoto)
 
 
-
-
 module.exports = router
