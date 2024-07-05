@@ -6,14 +6,13 @@
       
     }
   ], 
-  "rewrites": 
+  "routes": 
   [
     { 
-      "source": "/(.*)", 
-      "destination": "/server.js" ,
+      "src": "/(.*)", 
+      "dest": "/server.js" ,
       "methods": ["GET", "POST", "PATCH","DELETE","PUT","OPTIONS"],
-      "headers":
-      {
+      "headers":{
         "Access-Control-Allow-Origin" : "https://ecommerce-react-frontend-sage.vercel.app"
       }
     }
