@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use(cors({
-  origin: ["https://ecommerce-react-frontend-sage.vercel.app/", "http://localhost:3000"],
+  origin: ["https://ecommerce-react-frontend-sage.vercel.app", "http://localhost:3000"],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
